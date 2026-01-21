@@ -1,0 +1,55 @@
+/* ===== SIDEBAR ===== */
+
+.sidebar {
+    width: 230px;
+    min-height: 100vh;
+    background: #ffffff;
+    border-right: 1px solid #dee2e6;
+}
+
+/* Logo area */
+.logo-area {
+    padding: 20px 10px;
+    text-align: center;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.logo-icon {
+    font-size: 34px;
+}
+
+.logo-text {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+/* Menu */
+.menu {
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    list-style: none;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.menu li a {
+    display: block;
+    padding: 12px 20px;
+    color: #333;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.menu li a:hover {
+    background: #f4f6f9;
+}
+
+/* Active menu */
+.menu li.active a {
+    background: #0d6efd;
+    color: #fff;
+    font-weight: 600;
+    border-left: 4px solid #084298;
+}

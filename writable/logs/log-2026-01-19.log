@@ -1,0 +1,9 @@
+CRITICAL - 2026-01-19 05:53:54 --> Error: Class "App\Models\PaymentModel" not found
+[Method: POST, Route: payment/verifyPayment]
+in APPPATH\Controllers\Payment.php on line 70.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payment->verifyPayment()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
